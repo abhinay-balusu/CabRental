@@ -192,13 +192,13 @@
 
 - (IBAction)submitButtonClicked:(id)sender
 {
-    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Registered successfully" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-    [alert show];
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if(buttonIndex==0)
+    
+    if([nameTextField.text isEqual:@""] || [mobileNumberTextField.text isEqual:@""] || [pwdTextField.text isEqual:@""])
+    {
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Please Enter all the Mandetory Details" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    else
     {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         [defaults setObject:nameTextField.text forKey:@"name"];
@@ -214,15 +214,18 @@
         NSLog(@"%@",[defaults objectForKey:@"office"]);
         [defaults synchronize];
         
-        if([nameTextField.text isEqual:@""] || [mobileNumberTextField.text isEqual:@""] || [pwdTextField.text isEqual:@""])
-        {
-            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Please Enter all the Mandetory Details" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-            [alert show];
-        }
-        else
-        {
-            [self.navigationController popToRootViewControllerAnimated:YES];
-        }
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Registered successfully" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        [alert show];
+
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex==0)
+    {
+        
+        [self.navigationController popToRootViewControllerAnimated:YES];
  
     }
 }

@@ -47,6 +47,9 @@
 {
     [super viewDidLoad];
     
+    self.view.frame = [[UIScreen mainScreen] bounds];
+
+    
     mobileTextField.delegate=self;
     passwordTextField.delegate=self;
     

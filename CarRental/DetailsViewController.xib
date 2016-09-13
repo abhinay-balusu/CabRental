@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A320" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailsViewController">
+            <connections>
+                <outlet property="bookingHistory" destination="a0Y-dR-L4E" id="fVT-yV-rMO"/>
+                <outlet property="bookingThroughMap" destination="r8y-We-zZU" id="POg-vE-6bh"/>
+                <outlet property="designImageView" destination="4jx-nR-dGS" id="KAf-SI-Vre"/>
+                <outlet property="favourites" destination="j1h-Eq-CQb" id="a5Q-Rx-BnE"/>
+                <outlet property="startBooking" destination="PMx-Ob-Ls1" id="XOi-pY-oYs"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMx-Ob-Ls1">
+                    <rect key="frame" x="0.0" y="290" width="320" height="45"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="3Zb-pI-YDH"/>
+                        <constraint firstAttribute="height" constant="45" id="pe3-xW-FtF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Start Booking 2">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="startBookingButtonClicked:" destination="-1" eventType="touchUpInside" id="2Js-Zx-EPn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0Y-dR-L4E">
+                    <rect key="frame" x="0.0" y="384" width="320" height="51"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="J7D-Mb-nvp"/>
+                        <constraint firstAttribute="height" constant="51" id="WDC-59-H65"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Booking History">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bookingHistoryButtonClicked:" destination="-1" eventType="touchUpInside" id="PoO-cD-adA"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cabDetails.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4jx-nR-dGS">
+                    <rect key="frame" x="0.0" y="64" width="320" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4jx-nR-dGS" secondAttribute="height" multiplier="320:201" constant="33.432835820895491" id="ATb-V1-E3q"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8y-We-zZU">
+                    <rect key="frame" x="0.0" y="244" width="320" height="45"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="a2F-qb-lEi"/>
+                        <constraint firstAttribute="width" constant="320" id="zEy-yN-4JK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Start Booking 1">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bookingThroughMapButtonClicked:" destination="-1" eventType="touchUpInside" id="KOv-Y1-pdY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L42-bZ-CIz">
+                    <rect key="frame" x="0.0" y="436" width="320" height="41"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Address Settings">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="setAddressButton:" destination="-1" eventType="touchUpInside" id="xF7-Ja-7Wg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1h-Eq-CQb">
+                    <rect key="frame" x="0.0" y="336" width="320" height="47"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="LFZ-yh-4LN"/>
+                        <constraint firstAttribute="height" constant="47" id="fsu-VT-gS6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Favourites">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="favouritesButtonClicked:" destination="-1" eventType="touchUpInside" id="BFh-bV-Bct"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4jx-nR-dGS" firstAttribute="top" secondItem="1" secondAttribute="top" constant="64" id="1j7-1f-RAq"/>
+                <constraint firstItem="PMx-Ob-Ls1" firstAttribute="top" secondItem="r8y-We-zZU" secondAttribute="bottom" constant="1" id="7RI-MF-v0x"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="leading" secondItem="a0Y-dR-L4E" secondAttribute="leading" id="Ct3-sY-4gc"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="leading" secondItem="L42-bZ-CIz" secondAttribute="leading" id="FKa-uk-FQz"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="leading" secondItem="4jx-nR-dGS" secondAttribute="leading" id="JUj-Ac-JXq"/>
+                <constraint firstItem="L42-bZ-CIz" firstAttribute="top" secondItem="a0Y-dR-L4E" secondAttribute="bottom" constant="1" id="OjX-OD-nHT"/>
+                <constraint firstItem="4jx-nR-dGS" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="W4c-4U-25K"/>
+                <constraint firstAttribute="trailing" secondItem="4jx-nR-dGS" secondAttribute="trailing" id="gep-B9-xX1"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="top" secondItem="PMx-Ob-Ls1" secondAttribute="bottom" constant="1" id="hHx-7j-vdv"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="trailing" secondItem="L42-bZ-CIz" secondAttribute="trailing" id="k6A-zo-jiu"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="leading" secondItem="PMx-Ob-Ls1" secondAttribute="leading" id="lKy-dP-ufk"/>
+                <constraint firstItem="a0Y-dR-L4E" firstAttribute="top" secondItem="j1h-Eq-CQb" secondAttribute="bottom" constant="1" id="nlO-95-LqG"/>
+                <constraint firstItem="j1h-Eq-CQb" firstAttribute="leading" secondItem="r8y-We-zZU" secondAttribute="leading" id="sEt-cD-BzU"/>
+                <constraint firstItem="r8y-We-zZU" firstAttribute="top" secondItem="4jx-nR-dGS" secondAttribute="bottom" id="zRZ-tC-b07"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="218" y="216"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cabDetails.jpg" width="480" height="275"/>
+    </resources>
+</document>

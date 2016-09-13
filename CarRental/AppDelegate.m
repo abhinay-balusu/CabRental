@@ -20,6 +20,7 @@
     HomeViewController *homeVC=[[HomeViewController alloc]init];
     UINavigationController *navVC=[[UINavigationController alloc]initWithRootViewController:homeVC];
     self.window.rootViewController=navVC;
+    NSLog(@"%@", NSStringFromCGRect([[UIScreen mainScreen] bounds]));
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [self.window makeKeyAndVisible];
     return YES;

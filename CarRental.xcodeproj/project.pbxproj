@@ -7,6 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1327931D88A5B000C3AAE8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327871D88A5B000C3AAE8 /* HomeViewController.xib */; };
+		9F1327941D88A5B000C3AAE8 /* SettingAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327881D88A5B000C3AAE8 /* SettingAddressViewController.xib */; };
+		9F1327951D88A5B000C3AAE8 /* BookCabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327891D88A5B000C3AAE8 /* BookCabViewController.xib */; };
+		9F1327961D88A5B000C3AAE8 /* ReviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278A1D88A5B000C3AAE8 /* ReviewViewController.xib */; };
+		9F1327971D88A5B000C3AAE8 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278B1D88A5B000C3AAE8 /* LocationViewController.xib */; };
+		9F1327981D88A5B000C3AAE8 /* BookingStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278C1D88A5B000C3AAE8 /* BookingStatusViewController.xib */; };
+		9F1327991D88A5B000C3AAE8 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278D1D88A5B000C3AAE8 /* DetailsViewController.xib */; };
+		9F13279A1D88A5B000C3AAE8 /* CarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278E1D88A5B000C3AAE8 /* CarsViewController.xib */; };
+		9F13279B1D88A5B000C3AAE8 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F13278F1D88A5B000C3AAE8 /* RegistrationViewController.xib */; };
+		9F13279C1D88A5B000C3AAE8 /* BookingHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327901D88A5B000C3AAE8 /* BookingHistoryViewController.xib */; };
+		9F13279D1D88A5B000C3AAE8 /* FavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327911D88A5B000C3AAE8 /* FavouritesViewController.xib */; };
+		9F13279E1D88A5B000C3AAE8 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327921D88A5B000C3AAE8 /* HistoryViewController.xib */; };
+		9F1327B71D88A5E700C3AAE8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F13279F1D88A5E700C3AAE8 /* HomeViewController.m */; };
+		9F1327B81D88A5E700C3AAE8 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327A01D88A5E700C3AAE8 /* FavouritesViewController.m */; };
+		9F1327B91D88A5E700C3AAE8 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327A21D88A5E700C3AAE8 /* DetailsViewController.m */; };
+		9F1327BA1D88A5E700C3AAE8 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327A31D88A5E700C3AAE8 /* LocationViewController.m */; };
+		9F1327BB1D88A5E700C3AAE8 /* BookCabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327A41D88A5E700C3AAE8 /* BookCabViewController.m */; };
+		9F1327BC1D88A5E700C3AAE8 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AA1D88A5E700C3AAE8 /* HistoryViewController.m */; };
+		9F1327BD1D88A5E700C3AAE8 /* BookingHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AB1D88A5E700C3AAE8 /* BookingHistoryViewController.m */; };
+		9F1327BE1D88A5E700C3AAE8 /* BookingStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AC1D88A5E700C3AAE8 /* BookingStatusViewController.m */; };
+		9F1327BF1D88A5E700C3AAE8 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AD1D88A5E700C3AAE8 /* ReviewViewController.m */; };
+		9F1327C01D88A5E700C3AAE8 /* CarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AE1D88A5E700C3AAE8 /* CarsViewController.m */; };
+		9F1327C11D88A5E700C3AAE8 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327AF1D88A5E700C3AAE8 /* RegistrationViewController.m */; };
+		9F1327C21D88A5E700C3AAE8 /* SettingAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1327B01D88A5E700C3AAE8 /* SettingAddressViewController.m */; };
+		9F1327E11D88A62900C3AAE8 /* facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C31D88A62900C3AAE8 /* facebook.jpeg */; };
+		9F1327E21D88A62900C3AAE8 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C41D88A62900C3AAE8 /* marker.png */; };
+		9F1327E31D88A62900C3AAE8 /* yellowCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C51D88A62900C3AAE8 /* yellowCar.png */; };
+		9F1327E41D88A62900C3AAE8 /* redCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C61D88A62900C3AAE8 /* redCar.png */; };
+		9F1327E51D88A62900C3AAE8 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C71D88A62900C3AAE8 /* close.png */; };
+		9F1327E61D88A62900C3AAE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C81D88A62900C3AAE8 /* Icon.png */; };
+		9F1327E71D88A62900C3AAE8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327C91D88A62900C3AAE8 /* Icon@2x.png */; };
+		9F1327E81D88A62900C3AAE8 /* mapsiconios6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CA1D88A62900C3AAE8 /* mapsiconios6.png */; };
+		9F1327E91D88A62900C3AAE8 /* From.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CB1D88A62900C3AAE8 /* From.png */; };
+		9F1327EA1D88A62900C3AAE8 /* to.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CC1D88A62900C3AAE8 /* to.png */; };
+		9F1327EB1D88A62900C3AAE8 /* people-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CD1D88A62900C3AAE8 /* people-icon.png */; };
+		9F1327EC1D88A62900C3AAE8 /* clock-icon-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CE1D88A62900C3AAE8 /* clock-icon-hi.png */; };
+		9F1327ED1D88A62900C3AAE8 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327CF1D88A62900C3AAE8 /* car.png */; };
+		9F1327EE1D88A62900C3AAE8 /* backg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D01D88A62900C3AAE8 /* backg.jpeg */; };
+		9F1327EF1D88A62900C3AAE8 /* line_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D11D88A62900C3AAE8 /* line_separator.png */; };
+		9F1327F01D88A62900C3AAE8 /* favourites.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D21D88A62900C3AAE8 /* favourites.png */; };
+		9F1327F11D88A62900C3AAE8 /* office.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D31D88A62900C3AAE8 /* office.png */; };
+		9F1327F21D88A62900C3AAE8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D41D88A62900C3AAE8 /* home.png */; };
+		9F1327F31D88A62900C3AAE8 /* checkPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D51D88A62900C3AAE8 /* checkPoint.png */; };
+		9F1327F41D88A62900C3AAE8 /* from.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D61D88A62900C3AAE8 /* from.jpg */; };
+		9F1327F51D88A62900C3AAE8 /* Clock-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D71D88A62900C3AAE8 /* Clock-Small.png */; };
+		9F1327F61D88A62900C3AAE8 /* pencil-small-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D81D88A62900C3AAE8 /* pencil-small-icon.png */; };
+		9F1327F71D88A62900C3AAE8 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327D91D88A62900C3AAE8 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */; };
+		9F1327F81D88A62900C3AAE8 /* Logga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DA1D88A62900C3AAE8 /* Logga.jpg */; };
+		9F1327F91D88A62900C3AAE8 /* taxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DB1D88A62900C3AAE8 /* taxi.jpg */; };
+		9F1327FA1D88A62900C3AAE8 /* benz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DC1D88A62900C3AAE8 /* benz.jpg */; };
+		9F1327FB1D88A62900C3AAE8 /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DD1D88A62900C3AAE8 /* audi.jpg */; };
+		9F1327FC1D88A62900C3AAE8 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DE1D88A62900C3AAE8 /* calendar.png */; };
+		9F1327FD1D88A62900C3AAE8 /* carLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327DF1D88A62900C3AAE8 /* carLogo.jpg */; };
+		9F1327FE1D88A62900C3AAE8 /* cabDetails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1327E01D88A62900C3AAE8 /* cabDetails.jpg */; };
 		A20B21D3184C4B57007D09A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B21D2184C4B57007D09A6 /* Foundation.framework */; };
 		A20B21D5184C4B57007D09A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B21D4184C4B57007D09A6 /* CoreGraphics.framework */; };
 		A20B21D7184C4B57007D09A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B21D6184C4B57007D09A6 /* UIKit.framework */; };
@@ -19,62 +73,9 @@
 		A20B21EE184C4B57007D09A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B21D6184C4B57007D09A6 /* UIKit.framework */; };
 		A20B21F6184C4B57007D09A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20B21F4184C4B57007D09A6 /* InfoPlist.strings */; };
 		A20B21F8184C4B57007D09A6 /* CarRentalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B21F7184C4B57007D09A6 /* CarRentalTests.m */; };
-		A20B2204184C4B73007D09A6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B2202184C4B73007D09A6 /* HomeViewController.m */; };
-		A20B2205184C4B73007D09A6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B2203184C4B73007D09A6 /* HomeViewController.xib */; };
-		A20B2209184C513A007D09A6 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B2207184C513A007D09A6 /* RegistrationViewController.m */; };
-		A20B220A184C513A007D09A6 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B2208184C513A007D09A6 /* RegistrationViewController.xib */; };
-		A20B220E184C5BB0007D09A6 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B220C184C5BB0007D09A6 /* DetailsViewController.m */; };
-		A20B220F184C5BB0007D09A6 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B220D184C5BB0007D09A6 /* DetailsViewController.xib */; };
-		A20B2211184C5F5D007D09A6 /* cabDetails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A20B2210184C5F5D007D09A6 /* cabDetails.jpg */; };
-		A20B221A184C61E6007D09A6 /* BookingHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B2218184C61E6007D09A6 /* BookingHistoryViewController.m */; };
-		A20B221B184C61E6007D09A6 /* BookingHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B2219184C61E6007D09A6 /* BookingHistoryViewController.xib */; };
-		A20B221F184C6273007D09A6 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B221D184C6273007D09A6 /* FavouritesViewController.m */; };
-		A20B2220184C6273007D09A6 /* FavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B221E184C6273007D09A6 /* FavouritesViewController.xib */; };
-		A20B2224184C6993007D09A6 /* BookCabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B2222184C6993007D09A6 /* BookCabViewController.m */; };
-		A20B2225184C6993007D09A6 /* BookCabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B2223184C6993007D09A6 /* BookCabViewController.xib */; };
-		A20B2227184C6E3F007D09A6 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A20B2226184C6E3F007D09A6 /* calendar.png */; };
-		A2913ABB1850398900D03E2A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2913AB91850398900D03E2A /* HistoryViewController.m */; };
-		A2913ABC1850398900D03E2A /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2913ABA1850398900D03E2A /* HistoryViewController.xib */; };
-		A2913AC11850656D00D03E2A /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2913ABF1850656D00D03E2A /* LocationViewController.m */; };
-		A2913AC21850656D00D03E2A /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2913AC01850656D00D03E2A /* LocationViewController.xib */; };
-		A2913AC4185075D000D03E2A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = A2913AC3185075D000D03E2A /* close.png */; };
-		A2913AC618508C7F00D03E2A /* redCar.png in Resources */ = {isa = PBXBuildFile; fileRef = A2913AC518508C7F00D03E2A /* redCar.png */; };
-		A2913AC818508D2100D03E2A /* yellowCar.png in Resources */ = {isa = PBXBuildFile; fileRef = A2913AC718508D2100D03E2A /* yellowCar.png */; };
-		A2913ACC18509BD100D03E2A /* SettingAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2913ACA18509BD100D03E2A /* SettingAddressViewController.m */; };
-		A2913ACD18509BD100D03E2A /* SettingAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2913ACB18509BD100D03E2A /* SettingAddressViewController.xib */; };
-		A29262F21851DE63002AC0A0 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A29262F11851DE63002AC0A0 /* marker.png */; };
-		A2936B18184EFD6300C05D03 /* backg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A2936B17184EFD6300C05D03 /* backg.jpeg */; };
-		A2936B1A184F011300C05D03 /* From.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B19184F011300C05D03 /* From.png */; };
-		A2936B1C184F011A00C05D03 /* to.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B1B184F011A00C05D03 /* to.png */; };
-		A2936B1E184F012700C05D03 /* people-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B1D184F012700C05D03 /* people-icon.png */; };
-		A2936B20184F012C00C05D03 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B1F184F012C00C05D03 /* car.png */; };
-		A2936B22184F013A00C05D03 /* clock-icon-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B21184F013A00C05D03 /* clock-icon-hi.png */; };
-		A2936B24184F296500C05D03 /* mapsiconios6.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B23184F296500C05D03 /* mapsiconios6.png */; };
-		A2936B26184F51E700C05D03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B25184F51E700C05D03 /* Icon@2x.png */; };
-		A2936B28184F51ED00C05D03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2936B27184F51ED00C05D03 /* Icon.png */; };
 		A2936B2A184F58A900C05D03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2936B29184F58A900C05D03 /* QuartzCore.framework */; };
-		A293E0DE184DA1950080DEE9 /* pencil-small-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0DD184DA1950080DEE9 /* pencil-small-icon.png */; };
-		A293E0E0184DA2260080DEE9 /* Clock-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0DF184DA2260080DEE9 /* Clock-Small.png */; };
-		A293E0E2184DA4090080DEE9 /* from.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A293E0E1184DA4090080DEE9 /* from.jpg */; };
-		A293E0E4184DA40E0080DEE9 /* checkPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0E3184DA40E0080DEE9 /* checkPoint.png */; };
-		A293E0E6184DA6E70080DEE9 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0E5184DA6E70080DEE9 /* home.png */; };
-		A293E0E8184DA6EB0080DEE9 /* office.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0E7184DA6EB0080DEE9 /* office.png */; };
-		A293E0EA184DA6EF0080DEE9 /* favourites.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0E9184DA6EF0080DEE9 /* favourites.png */; };
 		A293E0EC184DE0410080DEE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A293E0EB184DE0410080DEE9 /* MapKit.framework */; };
 		A293E0EE184DE04A0080DEE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A293E0ED184DE04A0080DEE9 /* CoreLocation.framework */; };
-		A293E0F0184E175C0080DEE9 /* line_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = A293E0EF184E175C0080DEE9 /* line_separator.png */; };
-		A2E37FE6184C842300FCBFC9 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E37FE4184C842300FCBFC9 /* ReviewViewController.m */; };
-		A2E37FE7184C842300FCBFC9 /* ReviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FE5184C842300FCBFC9 /* ReviewViewController.xib */; };
-		A2E37FEB184C843A00FCBFC9 /* CarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E37FE9184C843A00FCBFC9 /* CarsViewController.m */; };
-		A2E37FEC184C843A00FCBFC9 /* CarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FEA184C843A00FCBFC9 /* CarsViewController.xib */; };
-		A2E37FF0184C844E00FCBFC9 /* BookingStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E37FEE184C844E00FCBFC9 /* BookingStatusViewController.m */; };
-		A2E37FF1184C844E00FCBFC9 /* BookingStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FEF184C844E00FCBFC9 /* BookingStatusViewController.xib */; };
-		A2E37FF3184C899100FCBFC9 /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FF2184C899100FCBFC9 /* audi.jpg */; };
-		A2E37FF5184C899700FCBFC9 /* benz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FF4184C899700FCBFC9 /* benz.jpg */; };
-		A2E37FF7184C899B00FCBFC9 /* taxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FF6184C899B00FCBFC9 /* taxi.jpg */; };
-		A2E37FF9184CA21F00FCBFC9 /* carLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FF8184CA21F00FCBFC9 /* carLogo.jpg */; };
-		A2E37FFB184CA2F300FCBFC9 /* Logga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FFA184CA2F300FCBFC9 /* Logga.jpg */; };
-		A2E37FFE184CA73C00FCBFC9 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E37FFD184CA73C00FCBFC9 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F1327871D88A5B000C3AAE8 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = CarRental/HomeViewController.xib; sourceTree = "<group>"; };
+		9F1327881D88A5B000C3AAE8 /* SettingAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingAddressViewController.xib; path = CarRental/SettingAddressViewController.xib; sourceTree = "<group>"; };
+		9F1327891D88A5B000C3AAE8 /* BookCabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookCabViewController.xib; path = CarRental/BookCabViewController.xib; sourceTree = "<group>"; };
+		9F13278A1D88A5B000C3AAE8 /* ReviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReviewViewController.xib; path = CarRental/ReviewViewController.xib; sourceTree = "<group>"; };
+		9F13278B1D88A5B000C3AAE8 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LocationViewController.xib; path = CarRental/LocationViewController.xib; sourceTree = "<group>"; };
+		9F13278C1D88A5B000C3AAE8 /* BookingStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookingStatusViewController.xib; path = CarRental/BookingStatusViewController.xib; sourceTree = "<group>"; };
+		9F13278D1D88A5B000C3AAE8 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailsViewController.xib; path = CarRental/DetailsViewController.xib; sourceTree = "<group>"; };
+		9F13278E1D88A5B000C3AAE8 /* CarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CarsViewController.xib; path = CarRental/CarsViewController.xib; sourceTree = "<group>"; };
+		9F13278F1D88A5B000C3AAE8 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegistrationViewController.xib; path = CarRental/RegistrationViewController.xib; sourceTree = "<group>"; };
+		9F1327901D88A5B000C3AAE8 /* BookingHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookingHistoryViewController.xib; path = CarRental/BookingHistoryViewController.xib; sourceTree = "<group>"; };
+		9F1327911D88A5B000C3AAE8 /* FavouritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavouritesViewController.xib; path = CarRental/FavouritesViewController.xib; sourceTree = "<group>"; };
+		9F1327921D88A5B000C3AAE8 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HistoryViewController.xib; path = CarRental/HistoryViewController.xib; sourceTree = "<group>"; };
+		9F13279F1D88A5E700C3AAE8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = CarRental/HomeViewController.m; sourceTree = "<group>"; };
+		9F1327A01D88A5E700C3AAE8 /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavouritesViewController.m; path = CarRental/FavouritesViewController.m; sourceTree = "<group>"; };
+		9F1327A11D88A5E700C3AAE8 /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavouritesViewController.h; path = CarRental/FavouritesViewController.h; sourceTree = "<group>"; };
+		9F1327A21D88A5E700C3AAE8 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = CarRental/DetailsViewController.m; sourceTree = "<group>"; };
+		9F1327A31D88A5E700C3AAE8 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = CarRental/LocationViewController.m; sourceTree = "<group>"; };
+		9F1327A41D88A5E700C3AAE8 /* BookCabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookCabViewController.m; path = CarRental/BookCabViewController.m; sourceTree = "<group>"; };
+		9F1327A51D88A5E700C3AAE8 /* BookCabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookCabViewController.h; path = CarRental/BookCabViewController.h; sourceTree = "<group>"; };
+		9F1327A61D88A5E700C3AAE8 /* CarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarsViewController.h; path = CarRental/CarsViewController.h; sourceTree = "<group>"; };
+		9F1327A71D88A5E700C3AAE8 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = CarRental/DetailsViewController.h; sourceTree = "<group>"; };
+		9F1327A81D88A5E700C3AAE8 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = CarRental/LocationViewController.h; sourceTree = "<group>"; };
+		9F1327A91D88A5E700C3AAE8 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationViewController.h; path = CarRental/RegistrationViewController.h; sourceTree = "<group>"; };
+		9F1327AA1D88A5E700C3AAE8 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = CarRental/HistoryViewController.m; sourceTree = "<group>"; };
+		9F1327AB1D88A5E700C3AAE8 /* BookingHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookingHistoryViewController.m; path = CarRental/BookingHistoryViewController.m; sourceTree = "<group>"; };
+		9F1327AC1D88A5E700C3AAE8 /* BookingStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookingStatusViewController.m; path = CarRental/BookingStatusViewController.m; sourceTree = "<group>"; };
+		9F1327AD1D88A5E700C3AAE8 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewViewController.m; path = CarRental/ReviewViewController.m; sourceTree = "<group>"; };
+		9F1327AE1D88A5E700C3AAE8 /* CarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarsViewController.m; path = CarRental/CarsViewController.m; sourceTree = "<group>"; };
+		9F1327AF1D88A5E700C3AAE8 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationViewController.m; path = CarRental/RegistrationViewController.m; sourceTree = "<group>"; };
+		9F1327B01D88A5E700C3AAE8 /* SettingAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingAddressViewController.m; path = CarRental/SettingAddressViewController.m; sourceTree = "<group>"; };
+		9F1327B11D88A5E700C3AAE8 /* SettingAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingAddressViewController.h; path = CarRental/SettingAddressViewController.h; sourceTree = "<group>"; };
+		9F1327B21D88A5E700C3AAE8 /* BookingHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookingHistoryViewController.h; path = CarRental/BookingHistoryViewController.h; sourceTree = "<group>"; };
+		9F1327B31D88A5E700C3AAE8 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = CarRental/HistoryViewController.h; sourceTree = "<group>"; };
+		9F1327B41D88A5E700C3AAE8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = CarRental/HomeViewController.h; sourceTree = "<group>"; };
+		9F1327B51D88A5E700C3AAE8 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewViewController.h; path = CarRental/ReviewViewController.h; sourceTree = "<group>"; };
+		9F1327B61D88A5E700C3AAE8 /* BookingStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookingStatusViewController.h; path = CarRental/BookingStatusViewController.h; sourceTree = "<group>"; };
+		9F1327C31D88A62900C3AAE8 /* facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = facebook.jpeg; path = CarRental/facebook.jpeg; sourceTree = "<group>"; };
+		9F1327C41D88A62900C3AAE8 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = CarRental/marker.png; sourceTree = "<group>"; };
+		9F1327C51D88A62900C3AAE8 /* yellowCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowCar.png; path = CarRental/yellowCar.png; sourceTree = "<group>"; };
+		9F1327C61D88A62900C3AAE8 /* redCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redCar.png; path = CarRental/redCar.png; sourceTree = "<group>"; };
+		9F1327C71D88A62900C3AAE8 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = CarRental/close.png; sourceTree = "<group>"; };
+		9F1327C81D88A62900C3AAE8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = CarRental/Icon.png; sourceTree = "<group>"; };
+		9F1327C91D88A62900C3AAE8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "CarRental/Icon@2x.png"; sourceTree = "<group>"; };
+		9F1327CA1D88A62900C3AAE8 /* mapsiconios6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapsiconios6.png; path = CarRental/mapsiconios6.png; sourceTree = "<group>"; };
+		9F1327CB1D88A62900C3AAE8 /* From.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = From.png; path = CarRental/From.png; sourceTree = "<group>"; };
+		9F1327CC1D88A62900C3AAE8 /* to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = to.png; path = CarRental/to.png; sourceTree = "<group>"; };
+		9F1327CD1D88A62900C3AAE8 /* people-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "people-icon.png"; path = "CarRental/people-icon.png"; sourceTree = "<group>"; };
+		9F1327CE1D88A62900C3AAE8 /* clock-icon-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock-icon-hi.png"; path = "CarRental/clock-icon-hi.png"; sourceTree = "<group>"; };
+		9F1327CF1D88A62900C3AAE8 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = CarRental/car.png; sourceTree = "<group>"; };
+		9F1327D01D88A62900C3AAE8 /* backg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backg.jpeg; path = CarRental/backg.jpeg; sourceTree = "<group>"; };
+		9F1327D11D88A62900C3AAE8 /* line_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_separator.png; path = CarRental/line_separator.png; sourceTree = "<group>"; };
+		9F1327D21D88A62900C3AAE8 /* favourites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favourites.png; path = CarRental/favourites.png; sourceTree = "<group>"; };
+		9F1327D31D88A62900C3AAE8 /* office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = office.png; path = CarRental/office.png; sourceTree = "<group>"; };
+		9F1327D41D88A62900C3AAE8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = CarRental/home.png; sourceTree = "<group>"; };
+		9F1327D51D88A62900C3AAE8 /* checkPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkPoint.png; path = CarRental/checkPoint.png; sourceTree = "<group>"; };
+		9F1327D61D88A62900C3AAE8 /* from.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = from.jpg; path = CarRental/from.jpg; sourceTree = "<group>"; };
+		9F1327D71D88A62900C3AAE8 /* Clock-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clock-Small.png"; path = "CarRental/Clock-Small.png"; sourceTree = "<group>"; };
+		9F1327D81D88A62900C3AAE8 /* pencil-small-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pencil-small-icon.png"; path = "CarRental/pencil-small-icon.png"; sourceTree = "<group>"; };
+		9F1327D91D88A62900C3AAE8 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png"; path = "CarRental/1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png"; sourceTree = "<group>"; };
+		9F1327DA1D88A62900C3AAE8 /* Logga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Logga.jpg; path = CarRental/Logga.jpg; sourceTree = "<group>"; };
+		9F1327DB1D88A62900C3AAE8 /* taxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taxi.jpg; path = CarRental/taxi.jpg; sourceTree = "<group>"; };
+		9F1327DC1D88A62900C3AAE8 /* benz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = benz.jpg; path = CarRental/benz.jpg; sourceTree = "<group>"; };
+		9F1327DD1D88A62900C3AAE8 /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audi.jpg; path = CarRental/audi.jpg; sourceTree = "<group>"; };
+		9F1327DE1D88A62900C3AAE8 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = CarRental/calendar.png; sourceTree = "<group>"; };
+		9F1327DF1D88A62900C3AAE8 /* carLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carLogo.jpg; path = CarRental/carLogo.jpg; sourceTree = "<group>"; };
+		9F1327E01D88A62900C3AAE8 /* cabDetails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabDetails.jpg; path = CarRental/cabDetails.jpg; sourceTree = "<group>"; };
 		A20B21CF184C4B57007D09A6 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20B21D2184C4B57007D09A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A20B21D4184C4B57007D09A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,74 +171,9 @@
 		A20B21F3184C4B57007D09A6 /* CarRentalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarRentalTests-Info.plist"; sourceTree = "<group>"; };
 		A20B21F5184C4B57007D09A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A20B21F7184C4B57007D09A6 /* CarRentalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarRentalTests.m; sourceTree = "<group>"; };
-		A20B2201184C4B73007D09A6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		A20B2202184C4B73007D09A6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		A20B2203184C4B73007D09A6 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		A20B2206184C513A007D09A6 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
-		A20B2207184C513A007D09A6 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
-		A20B2208184C513A007D09A6 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
-		A20B220B184C5BB0007D09A6 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
-		A20B220C184C5BB0007D09A6 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
-		A20B220D184C5BB0007D09A6 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
-		A20B2210184C5F5D007D09A6 /* cabDetails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabDetails.jpg; sourceTree = "<group>"; };
-		A20B2217184C61E6007D09A6 /* BookingHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingHistoryViewController.h; sourceTree = "<group>"; };
-		A20B2218184C61E6007D09A6 /* BookingHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingHistoryViewController.m; sourceTree = "<group>"; };
-		A20B2219184C61E6007D09A6 /* BookingHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingHistoryViewController.xib; sourceTree = "<group>"; };
-		A20B221C184C6272007D09A6 /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
-		A20B221D184C6273007D09A6 /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
-		A20B221E184C6273007D09A6 /* FavouritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavouritesViewController.xib; sourceTree = "<group>"; };
-		A20B2221184C6993007D09A6 /* BookCabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCabViewController.h; sourceTree = "<group>"; };
-		A20B2222184C6993007D09A6 /* BookCabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCabViewController.m; sourceTree = "<group>"; };
-		A20B2223184C6993007D09A6 /* BookCabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookCabViewController.xib; sourceTree = "<group>"; };
-		A20B2226184C6E3F007D09A6 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
-		A2913AB81850398900D03E2A /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		A2913AB91850398900D03E2A /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-		A2913ABA1850398900D03E2A /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
-		A2913ABE1850656D00D03E2A /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		A2913ABF1850656D00D03E2A /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
-		A2913AC01850656D00D03E2A /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
-		A2913AC3185075D000D03E2A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
-		A2913AC518508C7F00D03E2A /* redCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCar.png; sourceTree = "<group>"; };
-		A2913AC718508D2100D03E2A /* yellowCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowCar.png; sourceTree = "<group>"; };
-		A2913AC918509BD100D03E2A /* SettingAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingAddressViewController.h; sourceTree = "<group>"; };
-		A2913ACA18509BD100D03E2A /* SettingAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingAddressViewController.m; sourceTree = "<group>"; };
-		A2913ACB18509BD100D03E2A /* SettingAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingAddressViewController.xib; sourceTree = "<group>"; };
-		A29262F11851DE63002AC0A0 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
-		A2936B17184EFD6300C05D03 /* backg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backg.jpeg; sourceTree = "<group>"; };
-		A2936B19184F011300C05D03 /* From.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = From.png; sourceTree = "<group>"; };
-		A2936B1B184F011A00C05D03 /* to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = to.png; sourceTree = "<group>"; };
-		A2936B1D184F012700C05D03 /* people-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people-icon.png"; sourceTree = "<group>"; };
-		A2936B1F184F012C00C05D03 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
-		A2936B21184F013A00C05D03 /* clock-icon-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-icon-hi.png"; sourceTree = "<group>"; };
-		A2936B23184F296500C05D03 /* mapsiconios6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapsiconios6.png; sourceTree = "<group>"; };
-		A2936B25184F51E700C05D03 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		A2936B27184F51ED00C05D03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A2936B29184F58A900C05D03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		A293E0DD184DA1950080DEE9 /* pencil-small-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil-small-icon.png"; sourceTree = "<group>"; };
-		A293E0DF184DA2260080DEE9 /* Clock-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-Small.png"; sourceTree = "<group>"; };
-		A293E0E1184DA4090080DEE9 /* from.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = from.jpg; sourceTree = "<group>"; };
-		A293E0E3184DA40E0080DEE9 /* checkPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkPoint.png; sourceTree = "<group>"; };
-		A293E0E5184DA6E70080DEE9 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		A293E0E7184DA6EB0080DEE9 /* office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = office.png; sourceTree = "<group>"; };
-		A293E0E9184DA6EF0080DEE9 /* favourites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourites.png; sourceTree = "<group>"; };
 		A293E0EB184DE0410080DEE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A293E0ED184DE04A0080DEE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		A293E0EF184E175C0080DEE9 /* line_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_separator.png; sourceTree = "<group>"; };
-		A2E37FE3184C842300FCBFC9 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
-		A2E37FE4184C842300FCBFC9 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
-		A2E37FE5184C842300FCBFC9 /* ReviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewViewController.xib; sourceTree = "<group>"; };
-		A2E37FE8184C843A00FCBFC9 /* CarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsViewController.h; sourceTree = "<group>"; };
-		A2E37FE9184C843A00FCBFC9 /* CarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsViewController.m; sourceTree = "<group>"; };
-		A2E37FEA184C843A00FCBFC9 /* CarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarsViewController.xib; sourceTree = "<group>"; };
-		A2E37FED184C844E00FCBFC9 /* BookingStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingStatusViewController.h; sourceTree = "<group>"; };
-		A2E37FEE184C844E00FCBFC9 /* BookingStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingStatusViewController.m; sourceTree = "<group>"; };
-		A2E37FEF184C844E00FCBFC9 /* BookingStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingStatusViewController.xib; sourceTree = "<group>"; };
-		A2E37FF2184C899100FCBFC9 /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audi.jpg; sourceTree = "<group>"; };
-		A2E37FF4184C899700FCBFC9 /* benz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benz.jpg; sourceTree = "<group>"; };
-		A2E37FF6184C899B00FCBFC9 /* taxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxi.jpg; sourceTree = "<group>"; };
-		A2E37FF8184CA21F00FCBFC9 /* carLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carLogo.jpg; sourceTree = "<group>"; };
-		A2E37FFA184CA2F300FCBFC9 /* Logga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logga.jpg; sourceTree = "<group>"; };
-		A2E37FFD184CA73C00FCBFC9 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,49 +203,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1046EC1D88A2EB00654F93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F1327871D88A5B000C3AAE8 /* HomeViewController.xib */,
+				9F13278F1D88A5B000C3AAE8 /* RegistrationViewController.xib */,
+				9F1327881D88A5B000C3AAE8 /* SettingAddressViewController.xib */,
+				9F1327891D88A5B000C3AAE8 /* BookCabViewController.xib */,
+				9F13278A1D88A5B000C3AAE8 /* ReviewViewController.xib */,
+				9F13278B1D88A5B000C3AAE8 /* LocationViewController.xib */,
+				9F13278C1D88A5B000C3AAE8 /* BookingStatusViewController.xib */,
+				9F13278D1D88A5B000C3AAE8 /* DetailsViewController.xib */,
+				9F13278E1D88A5B000C3AAE8 /* CarsViewController.xib */,
+				9F1327901D88A5B000C3AAE8 /* BookingHistoryViewController.xib */,
+				9F1327911D88A5B000C3AAE8 /* FavouritesViewController.xib */,
+				9F1327921D88A5B000C3AAE8 /* HistoryViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F1046ED1D88A32000654F93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F1327B41D88A5E700C3AAE8 /* HomeViewController.h */,
+				9F13279F1D88A5E700C3AAE8 /* HomeViewController.m */,
+				9F1327A11D88A5E700C3AAE8 /* FavouritesViewController.h */,
+				9F1327A01D88A5E700C3AAE8 /* FavouritesViewController.m */,
+				9F1327A71D88A5E700C3AAE8 /* DetailsViewController.h */,
+				9F1327A21D88A5E700C3AAE8 /* DetailsViewController.m */,
+				9F1327A81D88A5E700C3AAE8 /* LocationViewController.h */,
+				9F1327A31D88A5E700C3AAE8 /* LocationViewController.m */,
+				9F1327A51D88A5E700C3AAE8 /* BookCabViewController.h */,
+				9F1327A41D88A5E700C3AAE8 /* BookCabViewController.m */,
+				9F1327A61D88A5E700C3AAE8 /* CarsViewController.h */,
+				9F1327AE1D88A5E700C3AAE8 /* CarsViewController.m */,
+				9F1327B61D88A5E700C3AAE8 /* BookingStatusViewController.h */,
+				9F1327AC1D88A5E700C3AAE8 /* BookingStatusViewController.m */,
+				9F1327A91D88A5E700C3AAE8 /* RegistrationViewController.h */,
+				9F1327AF1D88A5E700C3AAE8 /* RegistrationViewController.m */,
+				9F1327B11D88A5E700C3AAE8 /* SettingAddressViewController.h */,
+				9F1327B01D88A5E700C3AAE8 /* SettingAddressViewController.m */,
+				9F1327B21D88A5E700C3AAE8 /* BookingHistoryViewController.h */,
+				9F1327AB1D88A5E700C3AAE8 /* BookingHistoryViewController.m */,
+				9F1327B31D88A5E700C3AAE8 /* HistoryViewController.h */,
+				9F1327AA1D88A5E700C3AAE8 /* HistoryViewController.m */,
+				9F1327B51D88A5E700C3AAE8 /* ReviewViewController.h */,
+				9F1327AD1D88A5E700C3AAE8 /* ReviewViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A20B21C6184C4B57007D09A6 = {
 			isa = PBXGroup;
 			children = (
-				A2913AC918509BD100D03E2A /* SettingAddressViewController.h */,
-				A2913ACA18509BD100D03E2A /* SettingAddressViewController.m */,
-				A2913ACB18509BD100D03E2A /* SettingAddressViewController.xib */,
-				A2936B25184F51E700C05D03 /* Icon@2x.png */,
-				A2936B27184F51ED00C05D03 /* Icon.png */,
-				A29262F11851DE63002AC0A0 /* marker.png */,
+				9F1046ED1D88A32000654F93 /* Controllers */,
+				9F1046EC1D88A2EB00654F93 /* Views */,
 				A2E37FFC184CA41700FCBFC9 /* Assets */,
-				A20B2201184C4B73007D09A6 /* HomeViewController.h */,
-				A20B2202184C4B73007D09A6 /* HomeViewController.m */,
-				A20B2203184C4B73007D09A6 /* HomeViewController.xib */,
-				A20B2206184C513A007D09A6 /* RegistrationViewController.h */,
-				A20B2207184C513A007D09A6 /* RegistrationViewController.m */,
-				A20B2208184C513A007D09A6 /* RegistrationViewController.xib */,
-				A20B220B184C5BB0007D09A6 /* DetailsViewController.h */,
-				A20B220C184C5BB0007D09A6 /* DetailsViewController.m */,
-				A20B220D184C5BB0007D09A6 /* DetailsViewController.xib */,
-				A2913ABE1850656D00D03E2A /* LocationViewController.h */,
-				A2913ABF1850656D00D03E2A /* LocationViewController.m */,
-				A2913AC01850656D00D03E2A /* LocationViewController.xib */,
-				A20B2221184C6993007D09A6 /* BookCabViewController.h */,
-				A20B2222184C6993007D09A6 /* BookCabViewController.m */,
-				A20B2223184C6993007D09A6 /* BookCabViewController.xib */,
-				A2E37FE8184C843A00FCBFC9 /* CarsViewController.h */,
-				A2E37FE9184C843A00FCBFC9 /* CarsViewController.m */,
-				A2E37FEA184C843A00FCBFC9 /* CarsViewController.xib */,
-				A2E37FE3184C842300FCBFC9 /* ReviewViewController.h */,
-				A2E37FE4184C842300FCBFC9 /* ReviewViewController.m */,
-				A2E37FE5184C842300FCBFC9 /* ReviewViewController.xib */,
-				A2E37FED184C844E00FCBFC9 /* BookingStatusViewController.h */,
-				A2E37FEE184C844E00FCBFC9 /* BookingStatusViewController.m */,
-				A2E37FEF184C844E00FCBFC9 /* BookingStatusViewController.xib */,
-				A20B221C184C6272007D09A6 /* FavouritesViewController.h */,
-				A20B221D184C6273007D09A6 /* FavouritesViewController.m */,
-				A20B221E184C6273007D09A6 /* FavouritesViewController.xib */,
-				A20B2217184C61E6007D09A6 /* BookingHistoryViewController.h */,
-				A20B2218184C61E6007D09A6 /* BookingHistoryViewController.m */,
-				A20B2219184C61E6007D09A6 /* BookingHistoryViewController.xib */,
-				A2913AB81850398900D03E2A /* HistoryViewController.h */,
-				A2913AB91850398900D03E2A /* HistoryViewController.m */,
-				A2913ABA1850398900D03E2A /* HistoryViewController.xib */,
 				A20B21D8184C4B57007D09A6 /* CarRental */,
 				A20B21F1184C4B57007D09A6 /* CarRentalTests */,
 				A20B21D1184C4B57007D09A6 /* Frameworks */,
@@ -317,32 +332,36 @@
 		A2E37FFC184CA41700FCBFC9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A2913AC718508D2100D03E2A /* yellowCar.png */,
-				A2913AC518508C7F00D03E2A /* redCar.png */,
-				A2913AC3185075D000D03E2A /* close.png */,
-				A2936B23184F296500C05D03 /* mapsiconios6.png */,
-				A2936B19184F011300C05D03 /* From.png */,
-				A2936B1B184F011A00C05D03 /* to.png */,
-				A2936B1D184F012700C05D03 /* people-icon.png */,
-				A2936B1F184F012C00C05D03 /* car.png */,
-				A2936B21184F013A00C05D03 /* clock-icon-hi.png */,
-				A2936B17184EFD6300C05D03 /* backg.jpeg */,
-				A293E0EF184E175C0080DEE9 /* line_separator.png */,
-				A293E0E5184DA6E70080DEE9 /* home.png */,
-				A293E0E7184DA6EB0080DEE9 /* office.png */,
-				A293E0E9184DA6EF0080DEE9 /* favourites.png */,
-				A293E0E3184DA40E0080DEE9 /* checkPoint.png */,
-				A293E0E1184DA4090080DEE9 /* from.jpg */,
-				A293E0DF184DA2260080DEE9 /* Clock-Small.png */,
-				A293E0DD184DA1950080DEE9 /* pencil-small-icon.png */,
-				A2E37FFD184CA73C00FCBFC9 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */,
-				A20B2226184C6E3F007D09A6 /* calendar.png */,
-				A20B2210184C5F5D007D09A6 /* cabDetails.jpg */,
-				A2E37FF2184C899100FCBFC9 /* audi.jpg */,
-				A2E37FF4184C899700FCBFC9 /* benz.jpg */,
-				A2E37FF6184C899B00FCBFC9 /* taxi.jpg */,
-				A2E37FF8184CA21F00FCBFC9 /* carLogo.jpg */,
-				A2E37FFA184CA2F300FCBFC9 /* Logga.jpg */,
+				9F1327C31D88A62900C3AAE8 /* facebook.jpeg */,
+				9F1327C41D88A62900C3AAE8 /* marker.png */,
+				9F1327C51D88A62900C3AAE8 /* yellowCar.png */,
+				9F1327C61D88A62900C3AAE8 /* redCar.png */,
+				9F1327C71D88A62900C3AAE8 /* close.png */,
+				9F1327C81D88A62900C3AAE8 /* Icon.png */,
+				9F1327C91D88A62900C3AAE8 /* Icon@2x.png */,
+				9F1327CA1D88A62900C3AAE8 /* mapsiconios6.png */,
+				9F1327CB1D88A62900C3AAE8 /* From.png */,
+				9F1327CC1D88A62900C3AAE8 /* to.png */,
+				9F1327CD1D88A62900C3AAE8 /* people-icon.png */,
+				9F1327CE1D88A62900C3AAE8 /* clock-icon-hi.png */,
+				9F1327CF1D88A62900C3AAE8 /* car.png */,
+				9F1327D01D88A62900C3AAE8 /* backg.jpeg */,
+				9F1327D11D88A62900C3AAE8 /* line_separator.png */,
+				9F1327D21D88A62900C3AAE8 /* favourites.png */,
+				9F1327D31D88A62900C3AAE8 /* office.png */,
+				9F1327D41D88A62900C3AAE8 /* home.png */,
+				9F1327D51D88A62900C3AAE8 /* checkPoint.png */,
+				9F1327D61D88A62900C3AAE8 /* from.jpg */,
+				9F1327D71D88A62900C3AAE8 /* Clock-Small.png */,
+				9F1327D81D88A62900C3AAE8 /* pencil-small-icon.png */,
+				9F1327D91D88A62900C3AAE8 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png */,
+				9F1327DA1D88A62900C3AAE8 /* Logga.jpg */,
+				9F1327DB1D88A62900C3AAE8 /* taxi.jpg */,
+				9F1327DC1D88A62900C3AAE8 /* benz.jpg */,
+				9F1327DD1D88A62900C3AAE8 /* audi.jpg */,
+				9F1327DE1D88A62900C3AAE8 /* calendar.png */,
+				9F1327DF1D88A62900C3AAE8 /* carLogo.jpg */,
+				9F1327E01D88A62900C3AAE8 /* cabDetails.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -391,8 +410,8 @@
 		A20B21C7184C4B57007D09A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = tanla;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = abhinaybalusu;
 				TargetAttributes = {
 					A20B21E9184C4B57007D09A6 = {
 						TestTargetID = A20B21CE184C4B57007D09A6;
@@ -422,49 +441,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20B2225184C6993007D09A6 /* BookCabViewController.xib in Resources */,
-				A29262F21851DE63002AC0A0 /* marker.png in Resources */,
-				A2936B26184F51E700C05D03 /* Icon@2x.png in Resources */,
-				A2913AC818508D2100D03E2A /* yellowCar.png in Resources */,
-				A2E37FF5184C899700FCBFC9 /* benz.jpg in Resources */,
-				A2936B22184F013A00C05D03 /* clock-icon-hi.png in Resources */,
-				A293E0E4184DA40E0080DEE9 /* checkPoint.png in Resources */,
-				A2E37FFB184CA2F300FCBFC9 /* Logga.jpg in Resources */,
-				A2E37FFE184CA73C00FCBFC9 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png in Resources */,
-				A293E0F0184E175C0080DEE9 /* line_separator.png in Resources */,
+				9F1327951D88A5B000C3AAE8 /* BookCabViewController.xib in Resources */,
+				9F1327971D88A5B000C3AAE8 /* LocationViewController.xib in Resources */,
+				9F1327991D88A5B000C3AAE8 /* DetailsViewController.xib in Resources */,
+				9F1327F11D88A62900C3AAE8 /* office.png in Resources */,
+				9F1327F21D88A62900C3AAE8 /* home.png in Resources */,
 				A20B21DD184C4B57007D09A6 /* InfoPlist.strings in Resources */,
-				A2936B18184EFD6300C05D03 /* backg.jpeg in Resources */,
-				A293E0E2184DA4090080DEE9 /* from.jpg in Resources */,
-				A20B220A184C513A007D09A6 /* RegistrationViewController.xib in Resources */,
-				A2E37FF9184CA21F00FCBFC9 /* carLogo.jpg in Resources */,
-				A20B220F184C5BB0007D09A6 /* DetailsViewController.xib in Resources */,
-				A2E37FF3184C899100FCBFC9 /* audi.jpg in Resources */,
-				A2913AC21850656D00D03E2A /* LocationViewController.xib in Resources */,
-				A2E37FF1184C844E00FCBFC9 /* BookingStatusViewController.xib in Resources */,
-				A2913AC4185075D000D03E2A /* close.png in Resources */,
-				A20B2211184C5F5D007D09A6 /* cabDetails.jpg in Resources */,
-				A2913ACD18509BD100D03E2A /* SettingAddressViewController.xib in Resources */,
+				9F1327FA1D88A62900C3AAE8 /* benz.jpg in Resources */,
+				9F1327FC1D88A62900C3AAE8 /* calendar.png in Resources */,
+				9F1327FB1D88A62900C3AAE8 /* audi.jpg in Resources */,
+				9F1327F31D88A62900C3AAE8 /* checkPoint.png in Resources */,
+				9F1327E31D88A62900C3AAE8 /* yellowCar.png in Resources */,
+				9F13279D1D88A5B000C3AAE8 /* FavouritesViewController.xib in Resources */,
+				9F1327E41D88A62900C3AAE8 /* redCar.png in Resources */,
+				9F13279E1D88A5B000C3AAE8 /* HistoryViewController.xib in Resources */,
+				9F1327F61D88A62900C3AAE8 /* pencil-small-icon.png in Resources */,
+				9F1327931D88A5B000C3AAE8 /* HomeViewController.xib in Resources */,
+				9F1327961D88A5B000C3AAE8 /* ReviewViewController.xib in Resources */,
+				9F1327F81D88A62900C3AAE8 /* Logga.jpg in Resources */,
+				9F1327F51D88A62900C3AAE8 /* Clock-Small.png in Resources */,
+				9F1327E51D88A62900C3AAE8 /* close.png in Resources */,
 				A20B21E5184C4B57007D09A6 /* Images.xcassets in Resources */,
-				A20B221B184C61E6007D09A6 /* BookingHistoryViewController.xib in Resources */,
-				A2E37FEC184C843A00FCBFC9 /* CarsViewController.xib in Resources */,
-				A2E37FE7184C842300FCBFC9 /* ReviewViewController.xib in Resources */,
-				A293E0EA184DA6EF0080DEE9 /* favourites.png in Resources */,
-				A2936B28184F51ED00C05D03 /* Icon.png in Resources */,
-				A293E0DE184DA1950080DEE9 /* pencil-small-icon.png in Resources */,
-				A20B2227184C6E3F007D09A6 /* calendar.png in Resources */,
-				A293E0E8184DA6EB0080DEE9 /* office.png in Resources */,
-				A2E37FF7184C899B00FCBFC9 /* taxi.jpg in Resources */,
-				A293E0E6184DA6E70080DEE9 /* home.png in Resources */,
-				A20B2205184C4B73007D09A6 /* HomeViewController.xib in Resources */,
-				A2913AC618508C7F00D03E2A /* redCar.png in Resources */,
-				A20B2220184C6273007D09A6 /* FavouritesViewController.xib in Resources */,
-				A2936B1A184F011300C05D03 /* From.png in Resources */,
-				A293E0E0184DA2260080DEE9 /* Clock-Small.png in Resources */,
-				A2936B1E184F012700C05D03 /* people-icon.png in Resources */,
-				A2936B20184F012C00C05D03 /* car.png in Resources */,
-				A2913ABC1850398900D03E2A /* HistoryViewController.xib in Resources */,
-				A2936B1C184F011A00C05D03 /* to.png in Resources */,
-				A2936B24184F296500C05D03 /* mapsiconios6.png in Resources */,
+				9F1327ED1D88A62900C3AAE8 /* car.png in Resources */,
+				9F1327F01D88A62900C3AAE8 /* favourites.png in Resources */,
+				9F1327F71D88A62900C3AAE8 /* 1c39fc8f48fe4f7fc2e30d819c3c66e7 copy.png in Resources */,
+				9F1327EA1D88A62900C3AAE8 /* to.png in Resources */,
+				9F1327FD1D88A62900C3AAE8 /* carLogo.jpg in Resources */,
+				9F1327E61D88A62900C3AAE8 /* Icon.png in Resources */,
+				9F1327F41D88A62900C3AAE8 /* from.jpg in Resources */,
+				9F1327EC1D88A62900C3AAE8 /* clock-icon-hi.png in Resources */,
+				9F1327E11D88A62900C3AAE8 /* facebook.jpeg in Resources */,
+				9F13279B1D88A5B000C3AAE8 /* RegistrationViewController.xib in Resources */,
+				9F1327EB1D88A62900C3AAE8 /* people-icon.png in Resources */,
+				9F13279A1D88A5B000C3AAE8 /* CarsViewController.xib in Resources */,
+				9F1327E81D88A62900C3AAE8 /* mapsiconios6.png in Resources */,
+				9F1327E71D88A62900C3AAE8 /* Icon@2x.png in Resources */,
+				9F1327F91D88A62900C3AAE8 /* taxi.jpg in Resources */,
+				9F1327EE1D88A62900C3AAE8 /* backg.jpeg in Resources */,
+				9F1327981D88A5B000C3AAE8 /* BookingStatusViewController.xib in Resources */,
+				9F1327E91D88A62900C3AAE8 /* From.png in Resources */,
+				9F13279C1D88A5B000C3AAE8 /* BookingHistoryViewController.xib in Resources */,
+				9F1327EF1D88A62900C3AAE8 /* line_separator.png in Resources */,
+				9F1327FE1D88A62900C3AAE8 /* cabDetails.jpg in Resources */,
+				9F1327941D88A5B000C3AAE8 /* SettingAddressViewController.xib in Resources */,
+				9F1327E21D88A62900C3AAE8 /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,20 +503,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1327BE1D88A5E700C3AAE8 /* BookingStatusViewController.m in Sources */,
+				9F1327B81D88A5E700C3AAE8 /* FavouritesViewController.m in Sources */,
+				9F1327BD1D88A5E700C3AAE8 /* BookingHistoryViewController.m in Sources */,
+				9F1327BA1D88A5E700C3AAE8 /* LocationViewController.m in Sources */,
+				9F1327BB1D88A5E700C3AAE8 /* BookCabViewController.m in Sources */,
+				9F1327BC1D88A5E700C3AAE8 /* HistoryViewController.m in Sources */,
+				9F1327BF1D88A5E700C3AAE8 /* ReviewViewController.m in Sources */,
+				9F1327C01D88A5E700C3AAE8 /* CarsViewController.m in Sources */,
+				9F1327B91D88A5E700C3AAE8 /* DetailsViewController.m in Sources */,
 				A20B21E3184C4B57007D09A6 /* AppDelegate.m in Sources */,
-				A20B220E184C5BB0007D09A6 /* DetailsViewController.m in Sources */,
-				A20B2224184C6993007D09A6 /* BookCabViewController.m in Sources */,
-				A2E37FF0184C844E00FCBFC9 /* BookingStatusViewController.m in Sources */,
-				A20B221A184C61E6007D09A6 /* BookingHistoryViewController.m in Sources */,
-				A20B221F184C6273007D09A6 /* FavouritesViewController.m in Sources */,
-				A2913ABB1850398900D03E2A /* HistoryViewController.m in Sources */,
-				A2913AC11850656D00D03E2A /* LocationViewController.m in Sources */,
-				A20B2209184C513A007D09A6 /* RegistrationViewController.m in Sources */,
+				9F1327C21D88A5E700C3AAE8 /* SettingAddressViewController.m in Sources */,
 				A20B21DF184C4B57007D09A6 /* main.m in Sources */,
-				A2913ACC18509BD100D03E2A /* SettingAddressViewController.m in Sources */,
-				A2E37FEB184C843A00FCBFC9 /* CarsViewController.m in Sources */,
-				A20B2204184C4B73007D09A6 /* HomeViewController.m in Sources */,
-				A2E37FE6184C842300FCBFC9 /* ReviewViewController.m in Sources */,
+				9F1327C11D88A5E700C3AAE8 /* RegistrationViewController.m in Sources */,
+				9F1327B71D88A5E700C3AAE8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +562,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -557,6 +576,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -581,7 +601,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -615,11 +634,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarRental/CarRental-Prefix.pch";
 				INFOPLIST_FILE = "CarRental/CarRental-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -629,11 +652,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarRental/CarRental-Prefix.pch";
 				INFOPLIST_FILE = "CarRental/CarRental-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -641,7 +668,6 @@
 		A20B21FF184C4B57007D09A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarRental.app/CarRental";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -655,6 +681,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CarRentalTests/CarRentalTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanla.mad.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -664,7 +691,6 @@
 		A20B2200184C4B57007D09A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarRental.app/CarRental";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -674,6 +700,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarRental/CarRental-Prefix.pch";
 				INFOPLIST_FILE = "CarRentalTests/CarRentalTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanla.mad.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
